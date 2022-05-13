@@ -1,7 +1,7 @@
 body {
     background-color: hsl(212, 45%, 89%);
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,7 @@ body {
     width: 350px;
     height: 525px;
     border-radius: 20px;
+    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,6 @@ body {
 img {
     width: 320px;
     border-radius: 20px;
-    /* margin-bottom: 50px; */
 }
 
 .texts {
@@ -40,4 +40,26 @@ p {
     font-size: 15px;
     color: hsl(220, 15%, 55%);
     text-align: center;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 310px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
 }
