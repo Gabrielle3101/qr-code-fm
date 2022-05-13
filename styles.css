@@ -55,6 +55,10 @@ p {
         width: 310px;
     }
 
+    img {
+        width: 250px;
+    }
+
     h2 {
         font-size: 25px;
     }
